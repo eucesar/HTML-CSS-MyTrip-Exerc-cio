@@ -1,0 +1,49 @@
+.rodape{
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    height: 500px;;
+    clear:both;
+}
+
+.input{
+    position: absolute;
+    top: 95%;
+    left: 25%;
+    border: 1px solid var(--fundo);
+    box-shadow:  1px var(--fundo);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.titulo-footer{
+   margin: 50px;
+   font-size: 30px;
+   color: var(--cor-de-fundo);
+   font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.caixa{
+    width: 10em;
+    border-radius: 10px;
+    font-size: 15px;
+    width:53em;
+    position: absolute;
+    left: 0.9%;
+    top: 77%
+
+}
+
+.caixa-enviar{
+    background: var(--fundo);
+    color: var(--cor-de-fundo);
+    position: absolute;
+    top: 76%;
+    left: 87.5%;
+    height: 10;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+}
